@@ -53,13 +53,13 @@
 	<!-- Start Solar Panel  Top Bar Section -->
 	<!--==================================================-->
 	<div class="solar-topbar-section">
-		<div class="container">
+		<div class="topmenu">
 			<div class="row">
 				<div class="col-lg-9 col-md-9">
 					<div class="solar-top-menu">
 						<ul>
 							<li class="line"><a href="https://www.google.com/maps/place/Sattur,+Tamil+Nadu+626203/@9.362535,77.875234,14z" target="_blank" rel="noopener noreferrer">							
-								<i class="bi bi-geo-alt"></i> 45/1A1, Panchayat Union Colony, Sattur</a></li>							<li><a href="tel:9952765658"><i class="bi bi-telephone"></i>+91 - 9952765658</a></li>
+								<i class="bi bi-geo-alt"></i> 45/1A1, Panchayat Union Colony, Near Panchayat Union Office, Sattur.</a></li>							<li><a href="tel:9952765658"><i class="bi bi-telephone"></i>+91 - 9952765658</a></li>
 							<li><a href="mailto:info@geminieicontrols.com"><i class="bi bi-envelope"></i> info@geminieicontrols.com</a></li>
 						</ul>
 					</div>
@@ -195,6 +195,7 @@
 	<!-- Start Solar Panel  Faq Section -->
 	<!--==================================================-->
 
+	
 	<div class="faq-section">
 		<div class="container">
 			<div class="row">
@@ -207,7 +208,7 @@
 							<h2>Want to ask something from us?</h2>
 						</div>
 						<div class="faq-discription">
-							<p>Asi enim ad minim veniam, quis nostrud exerci Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<p>Here are some frequently asked questions (FAQs) about Gemini Electrical Instrument Controls:</p>
 						</div>
 					</div>
 					<!-- Start Accordion -->
@@ -215,24 +216,35 @@
                         <div id="tab1" class="tab_content">
                             <ul class="accordion">
                                 <li>
-                                    <a class=""><span>What warranties do you provide for installations?</span></a>
-                                    <p style="display: none;">Gemini Electrical Controls offers industry-leading warranties for all installations, ensuring your investment is protected. Our standard warranties cover both materials and workmanship for a specified period, providing peace of mind and long-term reliability.</p>
+                                    <a class=""><span> What is the purpose of the Gemini Electrical Instrument Control System?</span></a>
+                                    <p style="display: none;">The Gemini Electrical Instrument Control System is designed to manage and control various electrical and mechanical components within motion control systems. It ensures precise operation and integration of these components for optimal performance.</p>
                                 </li>
                                 <li>
-                                    <a class=""><span>How long does an installation take?</span></a>
-                                    <p style="display: none;">The time required for installation depends on the complexity of the project. For standard systems, installations typically take one to two days. Larger or more customized projects may take longer, but we always aim to minimize disruption to your schedule.</p>
+                                    <a class=""><span> How do I measure the CMOS RAM chip battery voltage in the Gemini system?</span></a>
+                                    <p style="display: none;">To measure the CMOS RAM chip battery voltage:
+                                        Ensure the power is off and disconnected from the Gemini system.
+										Use a voltmeter to measure across pins 16 and 32 of the Static RAM chip.
+										A voltage above +2.8 VDC indicates a good battery. If it's less, the battery or associated components may be faulty.</p>
                                 </li>
                                 <li>
-                                    <a><span>Do you offer maintenance services for installed systems?</span></a>
-                                    <p>Yes, Gemini Electrical Controls provides comprehensive maintenance services to ensure optimal performance and longevity of your systems. Regular check-ups and prompt troubleshooting are part of our commitment to customer satisfaction.</p>
+                                    <a><span> What are the electrical requirements for the Gemini system?</span></a>
+                                    <p>The Gemini system requires an AC power source and must be plugged into a properly earthed mains supply. Before connecting, ensure that the mains supply voltage corresponds with the voltage rating on the rating plate on the back of the instrument. 
+									</p>
                                 </li>
                                 <li>
-                                    <a><span>Are your installations compliant with industry standards?</span></a>
-                                    <p>Absolutely. All installations by Gemini Electrical Controls comply with the latest industry standards and regulations. We prioritize safety, efficiency, and quality in every project we undertake.</p>
+                                    <a><span> How can I troubleshoot common issues with the Gemini system?</span></a>
+                                    <p>For troubleshooting:
+                                        Check if the left LED is illuminated. If not, inspect the AC power connection.
+										If the left LED is red, attempt to enable the drive by connecting pins 1 and 2 of the 50-pin DRIVE I/O connector.
+										Cycle power to the drive to reset faults.
+										Verify wiring and feedback connections.
+										Use software commands like TERRLG to report the last 10 error conditions. 
+										</p>
                                 </li>
                                 <li>
-                                    <a><span>Can I customize the solutions to fit my needs?</span></a>
-                                    <p>Yes, we specialize in providing tailored solutions that meet your unique requirements. From energy-efficient designs to advanced system integrations, we work closely with clients to deliver customized results.</p>
+                                    <a><span>What safety precautions should I take when operating the Gemini system?</span></a>
+                                    <p>Always turn off switches and disconnect the main power before performing any tests or procedures that require placing hands inside the equipment. Ensure all electrical connections are secure and adhere to the specified electrical requirements. 
+									 For more detailed information, please refer to the official Gemini Electrical Instrument Controls documentation or contact their support team.</p>
                                 </li>
                             </ul>
                         </div>
@@ -292,7 +304,7 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-wiget ">
 						<div class="footer-wiget-log">
-							<a href="index.html"><img src="assets/images/logo1.jpg" alt="logo" height="100px" width="100px"></a>
+							<a href="index.html"><img src="assets/images/logo1.jpg" alt="logo" class="logo1"></a>
 						</div>
 						<div class="footer-wiget-text">
 							<p>At GEMINI E & I CONTROLS, we are committed to delivering
@@ -314,15 +326,32 @@
 							<h4>Industry Sectors</h4>
 						</div>
 						<div class="footer-wiget-menu">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about-us.html">About Us</a></li>
-								<li><a href="service.html">Services</a></li>
-								<li><a href="project-grid.html">Projects</a></li>
-								<li><a href="faq.html">FAQ</a></li>
-								<li><a href="contact-us.html">Contact Us</a></li>
-							</ul>
-						</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li>
+            <a href="#">Services <i class="fas fa-chevron-down"></i></a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="service-details.html">Service Details</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="#">Projects <i class="fas fa-chevron-down"></i></a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="project-grid.html">Project Grid</a></li>
+                    <li><a href="project-details.html">Project Details</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+</div>
+						
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
