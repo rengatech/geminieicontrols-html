@@ -119,13 +119,34 @@ a.meanmenu-reveal{display:none}
 .mean-container a.meanmenu-reveal:hover span {
   background: #fff;
 }
-.mean-container .mean-bar::before {
+/* .mean-container .mean-bar::before {
     color: #fff;
-    content: "Solar Panel ";
+    content: " Gemini Ei ";
     font-size: 28px;
     font-weight: 600;
     left: 10px;
     position: absolute;
     top: 18px;
+} */
+
+.mean-container .mean-bar {
+  position: relative; /* Required for ::before positioning */
 }
 
+.mean-container .mean-bar::before {
+  color: #fff;
+  content: "Gemini Ei ";
+  font-size: 23px;
+  font-weight: 600;
+  left: 70px;
+  position: absolute;
+  top: 18px; /* Adjust this to align with the logo */
+  z-index: 1; /* Ensure it appears above the background */
+}
+.logoimage 
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
