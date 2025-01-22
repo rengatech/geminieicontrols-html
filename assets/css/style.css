@@ -2457,7 +2457,7 @@ span.fill {
  <-- Solar Panel  Footer Section Css-->
 ===================================================*/
 
-.footer-section {
+/* .footer-section {
     background: #1c1632;
     padding: 120px 0 27px;
 }
@@ -2559,7 +2559,6 @@ span.fill {
     border-radius: 50px;
 }
 
-/* footer thumb */
 
 .footer-thumb {
     margin: 0px 0px 0px 40px;
@@ -2568,7 +2567,172 @@ span.fill {
 .footerimage img
 {
     width:100%;
+} */
+
+.footer-section {
+    background: #1c1632;
+    padding: 120px 0 45px;
 }
+
+.footer-wiget-text p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #e2e2e2;
+    font-weight: 400;
+    margin: 21px 0 21px;
+}
+
+.footer-wiget-social ul {
+    list-style: none;
+}
+
+.footer-wiget-social ul li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.footer-wiget-social ul li a i {
+    color: #e63a27;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.footer-wiget-social ul li a:hover i {
+    color: #ffffff;
+}
+
+.footer-wiget-title h4 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #e2e2e2;
+    font-weight: 600;
+    padding: 0 0 15px;
+    transition: .5s;
+}
+
+.footer-wiget-title h4:hover {
+    color: #e63a27;
+}
+
+.footer-wiget-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-wiget-menu ul li {
+    position: relative; /* Enable dropdown positioning */
+    margin-top: 6px;
+}
+
+.footer-wiget-menu ul li a {
+    display: flex; /* Aligns text and arrow */
+    align-items: center;
+    font-size: 18px;
+    color: #e2e2e2;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-wiget-menu ul li a:hover {
+    color: #e63a27;
+}
+
+.footer-wiget-menu ul li .sub-menu {
+    display: none; /* Hide dropdown initially */
+    position: absolute;
+    left: 0;
+    top: 100%; /* Position below the parent menu */
+    background: #2b2340; /* Dropdown background color */
+    padding: 10px;
+    z-index: 1000;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for dropdown */
+}
+
+.footer-wiget-menu ul li:hover .sub-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+.footer-wiget-menu ul li .sub-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-wiget-menu ul li .sub-menu li {
+    margin: 5px 0; /* Space between dropdown items */
+}
+
+.footer-wiget-menu ul li .sub-menu li a {
+    font-size: 16px;
+    color: #e2e2e2;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.5s;
+}
+
+.footer-wiget-menu ul li .sub-menu li a:hover {
+    color: #e63a27;
+}
+
+.footer-wiget-menu ul li a i {
+    margin-left: 10px;
+    font-size: 14px;
+    transition: transform 0.3s; /* Smooth arrow rotation */
+}
+
+.footer-wiget-menu ul li:hover > a i {
+    transform: rotate(180deg); /* Rotate arrow on hover */
+}
+
+.footer-wiget-contact-menu ul {
+    list-style: none;
+}
+
+.footer-wiget-contact-menu ul li {
+    display: block;
+    opacity: 0.710;
+    font-size: 18px;
+    line-height: 32px;
+    color: #e2e2e2;
+    font-weight: 400;
+    margin: 5px 0 12px;
+    transition: .5s;
+}
+
+.footer-wiget-contact-menu ul li:hover {
+    color: #e63a27;
+}
+
+.footer-wiget-contact-menu ul li a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer-wiget-contact-menu ul li a:hover {
+    color: #e63a27;
+}
+
+.footer-wiget-log img {
+    border-radius: 50px;
+}
+
+.footer-thumb {
+    margin: 0px 0px 0px 40px;
+    position: relative;
+}
+
+.footerimage img {
+    width: 100%;
+}
+
+
+
+
 
 /* copyrightext css */
 
@@ -4860,6 +5024,12 @@ span.flaticon-multiply i {
     top: -100%;
     opacity: 0;
 } 
+
+
+.topmenu{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 
 

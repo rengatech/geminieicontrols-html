@@ -181,9 +181,9 @@
         padding: 109px 0 0px;
     }
 
-    .footer-thumb {
+    /* .footer-thumb {
         margin: -110px 0px -173px;
-    }
+    } */
 
     .copyright-text p {
         font-size: 13px;
@@ -268,7 +268,7 @@
     }
 
     .solar-top-menu ul li a {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .solar-top-menu ul li a i {
@@ -342,7 +342,7 @@
     }
     .header
     {
-       padding:0px;
+       padding:0px 20px 0px 20px;
     }
 
 
@@ -427,7 +427,11 @@
 
     .service-text h4 a {
     font-size: 24px;
-    line-height: 6px;
+    line-height: 25px;
+}
+.service-text
+{
+    padding-top:20px;
 }
     /* contact us section */
 
