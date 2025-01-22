@@ -10,7 +10,7 @@
     /* soler header section */
 
     .solar-header-section::before {
-        width: 210%;
+        width: 215%;
     }
 
     /* solar section */
@@ -292,22 +292,22 @@
      /* soler header section */
 
      .solar-header-section::before {
-        width: 210%;
+        width: 215%;
     }
 
     .logo a img {
         width:100%;
-    }
+    } 
 
     /* solar menu css */
 
 
     .solar-menu ul li {
-        margin-right: 7px;
+        margin-right: 5px;
     }
 
     .solar-menu ul li a {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .solar-menu ul li a i {
@@ -330,6 +330,19 @@
     .solar-btn a {
         font-size: 16px;
         padding: 12px 12px;
+    }
+    .logo1
+    {
+        height:40px;
+        width:40px;
+    }
+    .logo h4
+    {
+        font-size: 13px;
+    }
+    .header
+    {
+       padding:0px;
     }
 
 
@@ -605,9 +618,9 @@
         padding: 109px 0 6px;
     }
 
-    .footer-wiget-log a img {
+    /* .footer-wiget-log a img {
         width: 100%;
-    }
+    } */
 
     .footer-wiget-text p {
         font-size: 15px;
@@ -622,9 +635,9 @@
         font-size: 16px;
     }
 
-    .footer-thumb {
+    /* .footer-thumb {
         margin: -110px 0px -207px;
-    }
+    } */
 
     .footer-condition ul li {
         margin-right: 12px;

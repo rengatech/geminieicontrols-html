@@ -125,6 +125,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
 .solar-top-social-icon ul li {
     display: inline-block;
     margin-left: 13px;
+    padding-left:20px;
 }
 
 .solar-top-social-icon ul li a i {
@@ -144,6 +145,7 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
 {
     color:#ffffff;
 }
+
 
 
 /*==================================================
@@ -216,6 +218,11 @@ Tags: alternative energy, company, eco, eco-friendly, ecology, environment, natu
 .solar-social-menu ul li a i {
     color: #141422;
     font-size: 21px;
+}
+.logo1
+{
+    height:60px;
+    width:60px;
 }
 
 a.handbag {
@@ -323,7 +330,7 @@ a.handbag:before {
     position: relative;
     left: -6px;
     bottom: -4px;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color:white;
     margin:0;
 }
@@ -338,7 +345,7 @@ a.handbag:before {
   }
   .header{
     margin:auto;
-    padding:20px;
+    padding:0px 20px 0px 20px;
 
   }
 
@@ -2817,7 +2824,8 @@ span.fill {
 .breatcome-section {
     position: relative;
     padding: 130px 0;
-    overflow: hidden; /* Prevents content overflow */
+    /* overflow: hidden;  */
+    
 }
 
 .breatcome-section::before {
