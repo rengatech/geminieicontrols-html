@@ -645,9 +645,9 @@ a.handbag:before {
 
 .slider-content.style-two h1 {
     color: #1c1632;
-    font-size: 60px;
-    line-height: 68px;
-    margin-bottom: 54px;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 40px;
 }
 
 /*==================================================
@@ -2805,6 +2805,7 @@ span.fill {
     border-top: 3px solid rgba(230,58,39,0.800);
     position: relative;
     margin: 0 10px 3px;
+    height:550px;
 }
 
 .testi-item-box::before {
@@ -2844,6 +2845,7 @@ span.fill {
     color: #434141;
     font-weight: 400;
     margin: 10px 0 5px;
+    text-align:justify;
 }
 
 .testi-icon i {
@@ -2917,6 +2919,7 @@ span.fill {
     padding: 20px 0 23px;
     width: 84%;
     margin: auto;
+   
 }
 
 
@@ -5029,6 +5032,30 @@ span.flaticon-multiply i {
 .topmenu{
     padding-left: 30px;
     padding-right: 30px;
+}
+.content
+{
+    margin-bottom:30px;
+}
+/* .project
+{
+  border-radius: 200px;
+} */
+.gridproject
+{
+    padding-left:70px;
+}
+.tab1 ul li
+{
+    width:100%;
+}
+.projecttitle
+{
+    margin-bottom: 20px !important;
+}
+.testi-discription
+{
+    height:315px;
 }
 
 
