@@ -330,7 +330,7 @@ a.handbag:before {
     position: relative;
     left: -6px;
     bottom: -4px;
-    font-size: 1.15rem;
+    font-size: 1.28rem;
     color:white;
     margin:0;
 }
@@ -797,7 +797,7 @@ a.handbag:before {
 .about-section-main-title h2 {
     font-size: 48px;
     line-height: 60px;
-    color: #1c1632;
+    color: #322116;
     font-weight: 600;
     margin-bottom: 23px;
 }
@@ -1012,6 +1012,13 @@ a.handbag:before {
 .section-main-title h2 {
     font-size: 48px;
     color: #1c1632;
+    font-weight: 600;
+    margin-bottom: 42px;
+}
+
+.section-main-title1 h2{
+    font-size: 48px;
+    color: darkorange;
     font-weight: 600;
     margin-bottom: 42px;
 }
@@ -1591,7 +1598,7 @@ a.active {
 }
 
 .row.choose {
-    background: url(../images/resource/solar\ farm.png);
+    background: url(../images/service\ banner1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1601,7 +1608,7 @@ a.active {
 .choose-us-discription p {
     font-size: 16px;
     line-height: 24px;
-    color: #434141;
+    color: #f2f2fa;
     font-weight: 400;
     text-align: justify;
     margin-bottom: 65px;
@@ -3449,7 +3456,7 @@ blockquote {
     bottom: 0;
     height: 2px;
     width: 90px;
-    background: #e63a27;
+    background: #e81b04;
     content: "";
     left: 0;
 }
